@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Net5.WebApi</name>
+    </assembly>
+    <members>
+        <member name="P:Net5.WebApi.Controllers.ValuesController.imh_JktjService">
+            <summary>
+            业务处理对象-属性注入
+            </summary>
+        </member>
+        <member name="M:Net5.WebApi.Controllers.ValuesController.GetJktj(System.DateTime,System.DateTime)">
+            <summary>
+            获取健康体检表记录
+            </summary>
+        </member>
+        <member name="M:Net5.WebApi.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+            Autofac 注入
+            </summary>
+            <param name="builder"></param>
+        </member>
+    </members>
+</doc>

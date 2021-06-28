@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="basicinfo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApi.IRepository\WebApi.IRepository.csproj" />
+    <ProjectReference Include="..\WebApi.Models\WebApi.Models.csproj" />
+  </ItemGroup>
+
+</Project>
